@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.4.18](https://github.com/cilibang123/lady-station_core/compare/v0.4.17...v0.4.18) (2026-01-25)
+
+
+### Bug Fixes
+
+* trigger release for frontend css fix ([9a9b16c](https://github.com/cilibang123/lady-station_core/commit/9a9b16caafa9e5ec71ae673931d6ac66d57a82ec))
+
+## [0.4.17](https://github.com/cilibang123/lady-station_core/compare/v0.4.16...v0.4.17) (2026-01-25)
+
+
+### Bug Fixes
+
+* 🐛 修复 Cython 编译后 app.chain.public 模块级导入失败 ([d348713](https://github.com/cilibang123/lady-station_core/commit/d3487135c51f5e5ec6c49213f7f5e77fced7bc06))
+
 ## [0.4.16](https://github.com/cilibang123/lady-station_core/compare/v0.4.15...v0.4.16) (2026-01-25)
 
 
