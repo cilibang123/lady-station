@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.16](https://github.com/cilibang123/lady-station_core/compare/v0.4.15...v0.4.16) (2026-01-25)
+
+
+### Bug Fixes
+
+* 🐛 触发完整发布流程以验证所有修复 ([a8fd837](https://github.com/cilibang123/lady-station_core/commit/a8fd83781dc81f5f45565c37855331402e2877f6))
+
 ## [0.4.15](https://github.com/cilibang123/lady-station_core/compare/v0.4.14...v0.4.15) (2026-01-25)
 
 
