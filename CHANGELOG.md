@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.14](https://github.com/cilibang123/lady-station_core/compare/v0.4.13...v0.4.14) (2026-01-25)
+
+
+### Bug Fixes
+
+* 🐛 延迟加载模块注册表并添加 pkgutil 回退机制 ([ed3ee29](https://github.com/cilibang123/lady-station_core/commit/ed3ee299f55b80e0f36b222c309e0c0e1cd98dcd))
+
 ## [0.4.13](https://github.com/cilibang123/lady-station_core/compare/v0.4.12...v0.4.13) (2026-01-25)
 
 
