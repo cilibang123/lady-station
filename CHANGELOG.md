@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.15](https://github.com/cilibang123/lady-station_core/compare/v0.4.14...v0.4.15) (2026-01-25)
+
+
+### Bug Fixes
+
+* 🐛 排除 public.py 编译以修复延迟导入错误 ([9e9678e](https://github.com/cilibang123/lady-station_core/commit/9e9678edd0609167643343b6dcab5d19d06362d7))
+
 ## [0.4.14](https://github.com/cilibang123/lady-station_core/compare/v0.4.13...v0.4.14) (2026-01-25)
 
 
