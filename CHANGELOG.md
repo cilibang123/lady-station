@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.4.21](https://github.com/cilibang123/lady-station_core/compare/v0.4.20...v0.4.21) (2026-01-28)
+
+
+### Bug Fixes
+
+* **javdb:** 优化登录失败提示与节流 ([de9b9e4](https://github.com/cilibang123/lady-station_core/commit/de9b9e4d71b2ad11e42a8e632859b4981430e3e0))
+* **rankings:** 修复手动刷新触发与轮询逻辑 ([5a31de7](https://github.com/cilibang123/lady-station_core/commit/5a31de733738290574f8895d3af280f96bf4a693))
+* **rankings:** 展示刷新原因 ([e82515b](https://github.com/cilibang123/lady-station_core/commit/e82515b5c0484d1389d525d6c8e6f1fc32aa2b9f))
+
+## [0.4.20](https://github.com/cilibang123/lady-station_core/compare/v0.4.19...v0.4.20) (2026-01-28)
+
+
+### Bug Fixes
+
+* **frontend:** 资源中心编辑复用与列表布局优化 ([8f545b1](https://github.com/cilibang123/lady-station_core/commit/8f545b1fe94608d915c1d0c909e0d37afe68b69d))
+
+## [0.4.19](https://github.com/cilibang123/lady-station_core/compare/v0.4.18...v0.4.19) (2026-01-27)
+
+
+### Bug Fixes
+
+* 合并本次改动 ([2a54c0a](https://github.com/cilibang123/lady-station_core/commit/2a54c0afa1792fed657f3becb5d241b8e21fdcc5))
+
 ## [0.4.18](https://github.com/cilibang123/lady-station_core/compare/v0.4.17...v0.4.18) (2026-01-25)
 
 
