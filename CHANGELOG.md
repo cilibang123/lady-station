@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.22](https://github.com/cilibang123/lady-station_core/compare/v0.4.21...v0.4.22) (2026-01-31)
+
+
+### Bug Fixes
+
+* 更新排行榜订阅与相关功能 ([6177372](https://github.com/cilibang123/lady-station_core/commit/617737211c50de6e0380b539584c6d5777c96b6a))
+
 ## [0.4.21](https://github.com/cilibang123/lady-station_core/compare/v0.4.20...v0.4.21) (2026-01-28)
 
 
