@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.23](https://github.com/cilibang123/lady-station_core/compare/v0.4.22...v0.4.23) (2026-01-31)
+
+
+### Bug Fixes
+
+* 添加 agent skills ([6855589](https://github.com/cilibang123/lady-station_core/commit/6855589720289c1434a1e1cbeae2ea818384e41f))
+
 ## [0.4.22](https://github.com/cilibang123/lady-station_core/compare/v0.4.21...v0.4.22) (2026-01-31)
 
 
