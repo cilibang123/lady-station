@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.25](https://github.com/cilibang123/lady-station_core/compare/v0.4.24...v0.4.25) (2026-02-01)
+
+
+### Bug Fixes
+
+* **ui:** 新首页替换与榜单体验优化 ([9c89efd](https://github.com/cilibang123/lady-station_core/commit/9c89efd311cd1e114d0469269d1e3bb625ab571b))
+
 ## [0.4.24](https://github.com/cilibang123/lady-station_core/compare/v0.4.23...v0.4.24) (2026-01-31)
 
 
