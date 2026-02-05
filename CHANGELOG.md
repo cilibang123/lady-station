@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.26](https://github.com/cilibang123/lady-station_core/compare/v0.4.25...v0.4.26) (2026-02-05)
+
+
+### Bug Fixes
+
+* 同步功能调整与前后端更新 ([5aefe8a](https://github.com/cilibang123/lady-station_core/commit/5aefe8a242d97e9c8472a9c9260fa38b6315b278))
+
 ## [0.4.25](https://github.com/cilibang123/lady-station_core/compare/v0.4.24...v0.4.25) (2026-02-01)
 
 
