@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.29](https://github.com/cilibang123/lady-station_core/compare/v0.4.28...v0.4.29) (2026-02-06)
+
+
+### Bug Fixes
+
+* **settings:** 统一系统设置并优化订阅刷新时机 ([c772871](https://github.com/cilibang123/lady-station_core/commit/c7728717f1a1f0cea935160705e6dedfac085e9f))
+
 ## [0.4.28](https://github.com/cilibang123/lady-station_core/compare/v0.4.27...v0.4.28) (2026-02-06)
 
 
