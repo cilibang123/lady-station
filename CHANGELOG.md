@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.28](https://github.com/cilibang123/lady-station_core/compare/v0.4.27...v0.4.28) (2026-02-06)
+
+
+### Bug Fixes
+
+* **migration:** 调整旧库配置迁移策略并清理历史残留表 ([9c187e8](https://github.com/cilibang123/lady-station_core/commit/9c187e83115f4288f0347b4f186d56834523d041))
+* 移除 sync_mode 字段并重建调度表 ([c58d81a](https://github.com/cilibang123/lady-station_core/commit/c58d81aef4a0ac70022e5bdf14b1f5254ffc78b3))
+
 ## [0.4.27](https://github.com/cilibang123/lady-station_core/compare/v0.4.26...v0.4.27) (2026-02-06)
 
 
