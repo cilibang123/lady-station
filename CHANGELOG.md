@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.27](https://github.com/cilibang123/lady-station_core/compare/v0.4.26...v0.4.27) (2026-02-06)
+
+
+### Bug Fixes
+
+* 补齐转存同步模式并增加订阅搜索抖动 ([0eda195](https://github.com/cilibang123/lady-station_core/commit/0eda19504f60a3cdc1bf2a8510f38dbbaafacaea))
+
 ## [0.4.26](https://github.com/cilibang123/lady-station_core/compare/v0.4.25...v0.4.26) (2026-02-05)
 
 
