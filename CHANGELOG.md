@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.30](https://github.com/cilibang123/lady-station_core/compare/v0.4.29...v0.4.30) (2026-02-07)
+
+
+### Bug Fixes
+
+* **rankings:** 收敛榜单配置保存并完善订阅筛选链路 ([78a031f](https://github.com/cilibang123/lady-station_core/commit/78a031f3086bf807b4aaf43c7f4cdcefc03879f5))
+
 ## [0.4.29](https://github.com/cilibang123/lady-station_core/compare/v0.4.28...v0.4.29) (2026-02-06)
 
 
