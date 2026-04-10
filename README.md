@@ -128,8 +128,9 @@ docker compose up -d
 
 ## 项目链接
 
-- 🐙 GitHub：`https://github.com/cilibang123/lady-station`
-- 💬 Telegram 交流群：`https://t.me/+bG-XdlWLIZJmZDJh`
+- 🐙 [GitHub](https://github.com/cilibang123/lady-station)
+- 💬 [Telegram 交流群](https://t.me/+bG-XdlWLIZJmZDJh)
+
 
 欢迎加入 Telegram 群组交流使用问题、功能建议与部署经验。
 
