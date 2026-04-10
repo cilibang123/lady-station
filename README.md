@@ -52,11 +52,13 @@ Lady Station 是一个前后端一体化服务，聚焦资源发现、采集、�
 
 ---
 
-## 🚀 部署方式一：`docker run`（最快）
+## 🚀 部署方式一：`docker run`
 
 ```bash
 docker pull xyp198988/lady-station:latest
+```
 
+```bash
 docker run -d \
   --name lady-station \
   --restart always \
@@ -75,14 +77,8 @@ docker run -d \
 
 ## 🧩 部署方式二：Docker Compose（推荐长期运行）
 
-先准备目录：
 
-```bash
-mkdir -p lady-station/data
-cd lady-station
-```
-
-创建 `docker-compose.yml`：
+ `docker-compose.yml`：
 
 ```yaml
 services:
@@ -98,25 +94,6 @@ services:
       - TZ=Asia/Shanghai
       - LICENSE_KEY=你获取到的KEY
 ```
-
-启动与查看：
-
-```bash
-docker compose up -d
-docker compose ps
-docker compose logs -f lady-station
-```
-
----
-
-## 🔄 升级方式
-
-```bash
-docker compose pull
-docker compose up -d
-```
-
-如果是 `docker run` 方式，建议先备份 `data/` 再重建容器。
 
 ---
 
