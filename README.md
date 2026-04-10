@@ -33,7 +33,6 @@
 ## 镜像信息
 
 - 📦 DockerHub 镜像：`xyp198988/lady-station`
-- 推荐标签：`latest`
 - 容器内服务端口：`8000`
 - 数据目录：`/data`
 
@@ -95,6 +94,7 @@ services:
 - 📝 [更新日志](https://github.com/cilibang123/lady-station/releases)
 - 🐙 [GitHub](https://github.com/cilibang123/lady-station)
 - 💬 [Telegram 交流群](https://t.me/+bG-XdlWLIZJmZDJh)
+
 
 欢迎加入 Telegram 群组交流使用问题、功能建议。
 
