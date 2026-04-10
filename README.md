@@ -1,51 +1,136 @@
 # Lady Station
 
-> 磁力链接管理与云盘离线下载服务
+> 榜单、磁力采集、磁力推送、订阅、站点资源搜索一体化服务
 
-Lady Station 是一个功能完善的磁力链接管理系统，支持多数据源同步、CloudDrive2 云盘离线下载、定时任务调度等功能。
+---
 
-## ✨ 功能特性
+## 项目简介
 
-### 📊 磁力管理
-- 磁力链接搜索、筛选、分页浏览
-- 按日期、分类、来源多维度筛选
-- 支持复制磁力链接、一键离线下载
+Lady Station 是一个前后端一体化服务，聚焦资源发现、采集、推送与订阅自动化。
 
-### 🔄 数据源同步
-- 支持多数据源配置（PostgreSQL 直连 / LS-API）
-- 主备数据源自动故障切换
-- 手动同步 / 定时自动同步
-- 增量同步，避免重复数据
+---
 
-### ☁️ 云盘离线
-- 集成 CloudDrive2 实现云盘离线下载
-- 支持阿里云盘、115网盘等多种云盘
-- 自动创建分类/日期目录结构
-- 手动离线 / 定时自动离线
-- 配额检查，避免超限
+## ✨ 核心能力
 
-### 🕷️ 爬虫功能
-- 支持多站点数据爬取
-- 手动爬取 / 定时自动爬取
-- 可配置爬取参数
+### 📊 榜单
 
-### 🔔 通知推送
-- 企业微信通知
-- Telegram Bot 通知
-- 任务执行结果实时推送
+- 榜单刷新与浏览
+- 榜单自动订阅
+- 订阅状态回显
 
-### 🔐 安全特性
-- API Key 只读认证（查询/同步/统计）
-- 用户登录认证
-- 敏感信息脱敏显示
+### 🕷️ 磁力采集
 
+- 多来源采集
+- 手动触发与定时执行
+- 磁力标准化与去重
 
-对外只读 API Key 的可用接口与示例请参考 `docs/api/API.md`。
+### 🚀 磁力推送
 
-## 📄 License
+- 规则化推送到下载器/离线路径
+- 默认下载器与自定义保存路径
+- 推送结果通知
 
-MIT License
+### 📌 订阅
 
-## 🤝 贡献
+- 订阅规则配置
+- 自动执行与回退策略
+- 与榜单/采集/推送联动
 
-欢迎提交 Issue 和 Pull Request！
+### 🔎 站点资源搜索
+
+- 站点级搜索与筛选
+- 搜索结果直达推送/订阅
+
+---
+
+## 镜像信息
+
+- 📦 DockerHub 镜像：`xyp198988/lady-station`
+- 推荐标签：`latest`
+- 容器内服务端口：`8000`
+- 数据目录：`/data`
+
+---
+
+## 🚀 部署方式一：`docker run`（最快）
+
+```bash
+docker pull xyp198988/lady-station:latest
+
+docker run -d \
+  --name lady-station \
+  --restart always \
+  -p 8123:8000 \
+  -v /your/path/lady-station/data:/data \
+  -e TZ=Asia/Shanghai \
+  -e LICENSE_KEY=你获取到的KEY \
+  xyp198988/lady-station:latest
+```
+
+启动后访问：`http://<你的服务器IP>:8123`
+
+默认账号：`admin` / `admin123`
+
+---
+
+## 🧩 部署方式二：Docker Compose（推荐长期运行）
+
+先准备目录：
+
+```bash
+mkdir -p lady-station/data
+cd lady-station
+```
+
+创建 `docker-compose.yml`：
+
+```yaml
+services:
+  lady-station:
+    image: xyp198988/lady-station:latest
+    container_name: lady-station
+    restart: always
+    ports:
+      - "8123:8000"
+    volumes:
+      - ./data:/data
+    environment:
+      - TZ=Asia/Shanghai
+      - LICENSE_KEY=你获取到的KEY
+```
+
+启动与查看：
+
+```bash
+docker compose up -d
+docker compose ps
+docker compose logs -f lady-station
+```
+
+---
+
+## 🔄 升级方式
+
+```bash
+docker compose pull
+docker compose up -d
+```
+
+如果是 `docker run` 方式，建议先备份 `data/` 再重建容器。
+
+---
+
+## 🌐 访问地址
+
+- Web 页面：`http://<IP>:8123`
+
+---
+
+## 项目链接
+
+- 🐙 GitHub：`https://github.com/cilibang123/lady-station`
+- 💬 Telegram 交流群：`https://t.me/+bG-XdlWLIZJmZDJh`
+
+欢迎加入 Telegram 群组交流使用问题、功能建议与部署经验。
+
+---
