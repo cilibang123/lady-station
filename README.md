@@ -93,6 +93,7 @@ services:
 
 - 📝 [更新日志](https://github.com/cilibang123/lady-station/releases)
 - 🐙 [GitHub](https://github.com/cilibang123/lady-station)
+- 🐳 [DockerHub](https://hub.docker.com/r/xyp198988/lady-station)
 - 💬 [Telegram 交流群](https://t.me/+bG-XdlWLIZJmZDJh)
 
 
